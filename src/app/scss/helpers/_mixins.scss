@@ -1,0 +1,23 @@
+//? Hovers
+@mixin hover {
+  @media (any-hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}
+
+//? Media queries
+// 768 - 0
+@mixin media-small {
+  @media screen and (max-width: $small) {
+    @content;
+  }
+}
+
+// min width
+@mixin media-min {
+  @media screen and (max-width: $xs) {
+    @content;
+  }
+}

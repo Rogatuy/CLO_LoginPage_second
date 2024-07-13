@@ -1,0 +1,21 @@
+//? Основные цвета
+$white: rgba(255, 255, 255, 1);
+$black: rgba(15, 42, 60, 1);
+$blue: rgba(9, 153, 238, 1);
+$dark-blue: rgba(33, 50, 93, 1);
+$light-blue: rgba(122, 191, 255, 1);
+$red: rgba(245, 103, 137, 1);
+$gray: rgba(221, 231, 240, 1);
+$light-gray: rgba(231, 238, 248, 1);
+$dark-gray: rgba(104, 132, 164, 1);
+
+$btn-bg-hover: linear-gradient(246.92deg, #0999EE 29.46%, #0083CF 74.77%);
+$btn-bg-disabled: rgba(174, 176, 190, 1);
+$input-bg-disabled: rgba(233, 235, 236, 1);
+$input-border-disabled: rgba(174, 176, 190, 1);
+$bg-page: linear-gradient(45.8deg, #E0E0E0 8.74%, #FFFFFF 42.16%, #E0E0E0 79.3%, #EFF2F7 111.98%, #E0E0E0 151.35%);
+
+//? Переменные семейств шрифтов
+$ff_Or: 'Onest-Regular', sans-serif;
+$ff_Ob: 'Onest-Bold', sans-serif;
+$ff_Fm: 'Futura-Medium', sans-serif;

@@ -1,0 +1,17 @@
+/* stylelint-disable */
+//? Миксин для подключения шрифтов
+
+@mixin font-face($font-family, $weight, $style) {
+  @font-face {
+    font-family: "#{$font-family}";
+    src: url('/assets/fonts/#{$font-family}.ttf') format('truetype');
+    font-weight: #{$weight};
+    font-display: swap;
+    font-style: $style;
+  }
+}
+
+//? Подключение шрифтов
+@include font-face("Onest-Regular", 400, normal);
+@include font-face("Onest-Bold", 700, normal);
+@include font-face("Futura-Medium", 500, normal);

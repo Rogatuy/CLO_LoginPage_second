@@ -1,0 +1,30 @@
+// *================================================================
+//? Шрифты и заголовки
+// *================================================================
+
+// Text Futura-Medium
+@mixin futura-m24 {
+  font-family: $ff_Fm;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+// Text onest bold
+@mixin onest-b12 {
+  font-family: $ff_Ob;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+// Text onest regular
+@mixin onest-r12 {
+  font-family: $ff_Or;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+@mixin onest-r10 {
+  font-family: $ff_Or;
+  font-size: 10px;
+  line-height: 13px;
+}
