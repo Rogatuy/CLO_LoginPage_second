@@ -10,5 +10,4 @@ import LoginForm from '@/components/Chapters/LoginPage/LoginForm.vue';
 </template>
 
 <style lang="scss" scoped>
-
 </style>
